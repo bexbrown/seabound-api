@@ -1,0 +1,44 @@
+[
+    {
+        "key": "GreenSeaTurtle",
+        "name": "Green Sea Turtle",
+        "scientificName": "Chelonia mydas",
+        "conservationStatus": "Endangered"
+    },
+    {
+        "key": "Loggerhead",
+        "name": "Loggerhead Sea Turtle",
+        "scientificName": "Caretta caretta",
+        "conservationStatus": "Endangered"
+    },
+    {
+        "key": "Leatherback",
+        "name": "Leatherback Sea Turtle",
+        "scientificName": "Dermochelys coriacea",
+        "conservationStatus": "Vulnerable"
+    },
+    {
+        "key": "FlatBack",
+        "name": "Flatback Sea Turtle",
+        "scientificName": "Natator depressus",
+        "conservationStatus": "Vulnerable"
+    },
+    {
+        "key": "HawksBill",
+        "name": "Hawksbill Sea Turtle",
+        "scientificName": "Eretmochelys imbricata",
+        "conservationStatus": "Critically Endangered"
+    },
+    {
+        "key": "KempsRidley",
+        "name": "Kemp's Ridley Sea Turtle",
+        "scientificName": "Lepidochelys kempii",
+        "conservationStatus": "Critically Endangered"
+    },
+    {
+        "key": "OliveRidley",
+        "name": "Olive Ridley Sea Turtle",
+        "scientificName": "Lepidochelys olivacea",
+        "conservationStatus": "Vulnerable"
+    }
+]
