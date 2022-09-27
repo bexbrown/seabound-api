@@ -7,8 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx nodemon server.js",
     "migrate": "knex migrate:latest",
-    "seed": "knex seed:run",
-    "build": "npm run build"
+    "seed": "knex seed:run"
   },
   "author": "",
   "license": "ISC",
