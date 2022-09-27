@@ -1,10 +1,10 @@
-require("dotenv").config();
+// require("dotenv").config();
 const knex = require("knex")(require('./knexfile'));
 const express = require('express')
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT = 8080;
 const cors = require("cors");
-const fs = require("fs");
+
 
 app.use(express.json());
 app.use(cors());
@@ -36,18 +36,6 @@ app.post('/leaderboard', async (req, res) => {
         }
         )
 });
-
-function readTurtles() {
-    const turtlesFile = fs.readFileSync("./data/Turtles.json");
-    const turtlesData = JSON.parse(turtlesFile);
-    return turtlesData;
-}
-
-app.get("/turtles", (req, res) => {
-    const turtles = readTurtles();
-    res.json(turtles);
-})
-
 
 app.listen(PORT, function () {
     console.log('App is now running at http://localhost:' + PORT);
