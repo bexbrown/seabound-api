@@ -1,6 +1,5 @@
 # Sea Bound (server)
 
-Description
 Sea bound is a game that simulates a sea turtles fight for survial in a plastic filled ocean. 
 
 ## How to install/run the project
